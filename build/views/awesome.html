@@ -1,0 +1,25 @@
+<div data-ng-controller="awesomeController">
+  <h3>
+    {{greeting}}
+  </h3>
+  <form name="greetingForm">
+    <input type="text" required data-ng-model="greeting"/>
+    <button data-ng-click="submitGreeting()" data-ng-disabled="greetingForm.$pristine || greetingForm.$invalid">
+      Save Greeting
+    </button>
+  </form>
+  <h3 data-ng-show="show">Wow, such not hidden.</h3>
+  <button data-ng-click="show = !show">
+    {{show ? 'Hide' : 'Show'}}
+  </button>
+
+  <h1>
+    Awesome Things!
+  </h1>
+  <ul data-ng-repeat="thing in awesomeThings">
+    <li>
+      {{thing}}
+    </li>
+  </ul>
+
+</div>

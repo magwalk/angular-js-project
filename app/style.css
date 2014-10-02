@@ -1,0 +1,37 @@
+body {
+  background-color: #F5F5F5;
+}
+.container {
+  width: 45%;
+  margin: 0 auto;
+}
+.inline {
+  width: 49%;
+  display: inline-block;
+}
+.preview{
+  background-color: #DCDCDC;
+  margin-top: 2rem;
+  padding: 0.5rem 2rem 1rem 2rem;
+}
+.header {
+  font-family: Arial;
+  font-size: 3rem;
+  font-weight: lighter;
+  padding-bottom: 0.5rem;
+  margin: 1rem 0;
+}
+/*style*/
+.Bold {
+  font-weight: bold;
+}
+.Italic{
+  font-style: italic;
+}
+/*font*/
+.Arial{
+  font-family: Arial;
+}
+.Georgia{
+  font-family: Georgia;
+}
